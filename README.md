@@ -8,13 +8,13 @@ Additionally, the trajectory_control folder is based on INP Grenoble's research 
 
 Finally, the technical logistics needed are:
 
-Ubuntu 22.04: Follow the PX4 main guide here.
-Mavlink, mavros libraries inside ROS 1 workspace directories: Mavlink, Mavros.
-ROS1 installation: Follow the guide here.
+Ubuntu 22.04: Follow the PX4 main guide here: https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html.
+Mavlink, mavros libraries inside ROS 1 workspace directories:[ Mavlink](https://mavlink.io/en/getting_started/use_libraries.html), [Mavros](https://github.com/mavlink/mavros).
+ROS1 installation: Follow the guide here : https://docs.px4.io/main/en/ros/ros1.html.
 Rviz: Installation for visualization testing purposes.
-Python: For ML libraries.
-PX4 Firmware (without Gazebo built-in): Follow the guide here.
-Gazebo 11: Preferably stand-alone, with knowledge of its plugin for the Intel RealSense D435i camera and iris drone. More information here.
+Python: and the ML libraries.
+PX4 Firmware (without Gazebo built-in): Follow the guide here: https://docs.px4.io/main/en/.
+Gazebo 11: Preferably stand-alone, with knowledge of its plugin for the Intel RealSense D435i camera and iris drone. More information here:https://classic.gazebosim.org/ , https://github.com/pal-robotics/realsense_gazebo_plugin
 Catkin: Basic knowledge of how Catkin works.
 QGround Control: Not used in our project but can be used if necessary for more technical aspects.
 The GitHub link we started from: https://github.com/HKPolyU-UAV/AUTO.
